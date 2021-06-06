@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+
+    <style>
+        #room_fields{
+            margin-top: 20px;
+        }
+
+        .sub{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+  <input type="button" id="more_fields" onclick="add_fields();" value="Loop add 1 Item" />
+
+  <button type="button" name="button" onclick="Geeks()"> 
+    Stop loop/Total
+    </button> 
+
+  <div id="room_fields">
+      <div class="sub">
+       <div class='label'>Item 1:</div>
+       <div class="content">
+           <label>
+             Enter title
+           </label>
+        
+        <input type="text">
+
+        <label>Enter Price</label>
+        <input type="number" id="add" name="array[]">
+
+        </div>
+      </div>
+   </div>
+   <p id="par"></p>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
